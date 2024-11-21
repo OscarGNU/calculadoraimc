@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">calculadoraimc</string>
+    <string name="calcular">Calcular</string>
+    <string name="enter_your_weight_example_70_200">Enter your weight, example: 70.200</string>
+    <string name="enter_your_height_example_1_70_m">Enter your height, example: 1.70 m.</string>
 </resources>

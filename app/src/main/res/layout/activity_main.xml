@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:text="Calcular"
+        android:text="@string/calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -30,7 +30,7 @@
             android:id="@+id/edt_peso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your weight, example: 70.200"
+            android:hint="@string/enter_your_weight_example_70_200"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -46,7 +46,7 @@
             android:id="@+id/edt_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your height, example: 1.70 m."
+            android:hint="@string/enter_your_height_example_1_70_m"
             android:inputType="numberDecimal"/>
     </com.google.android.material.textfield.TextInputLayout>
 
