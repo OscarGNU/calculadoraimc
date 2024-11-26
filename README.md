@@ -1,19 +1,34 @@
 # Calculadora IMC
-Desc
+This project is a native android application, developed in kotlin programming language.
+
+ 
+
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/user-attachments/assets/1dbf6cdc-a092-463f-811d-722f3b128abf" width=268> <img src="https://github.com/user-attachments/assets/8cc9d651-b345-4f1b-a85e-07a5d41d0cd8" width=268> <img src="https://github.com/user-attachments/assets/c59f91e1-7e50-4073-9be7-7dbbf126b363" width=268> <img src="https://github.com/user-attachments/assets/3a4302b2-6463-466a-a8f7-6ddd76a9b6a4" width=268>
+
+
 
 ## Tecnologias
-Techs
+ - Activity
+ - Intent
+ - Snackbar
+ - ViewGroups
+   -  LinearLayout
+   -  ConstraintLayout
+- Views
+  - ImageView
+  - TextView
+  - EditText
+  - Button
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Oscar Zambrano
+Copyright (c) 2024 Oscar Zambrano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
