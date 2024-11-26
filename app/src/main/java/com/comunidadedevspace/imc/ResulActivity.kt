@@ -31,5 +31,13 @@ class ResulActivity : AppCompatActivity() {
             "Obesidade Grave"
         }
         tvClasificacion.text = clasificacion
+        
+         val color = when (clasificacion) {
+            "Magreza", "Obesidade", "Obesidade Grave" -> android.graphics.Color.RED
+            "Normal" -> android.graphics.Color.GREEN
+            "Sobre peso" -> android.graphics.Color.YELLOW
+            else -> android.graphics.Color.BLACK
+        }
+        tvClasificacion.setTextColor(color)
     }
 }
